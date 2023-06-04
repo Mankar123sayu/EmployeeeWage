@@ -14,7 +14,9 @@ namespace EmployeeeWage
            // EmployeeDetails.CalculatingPartTimeWageWithSwitch();
            // EmployeeDetails.CalculateWagesForMonth();
             //WageTillCondition.CalculateWageTillCondition();
-            Refactor.GetWorkingHour(2);
+           // Refactor.GetWorkingHour(2);
+            MultipleCompanies.Multiple("Nokia", 10, 20, 100);
+           
 
 
         }
