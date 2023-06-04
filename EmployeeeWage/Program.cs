@@ -11,7 +11,9 @@ namespace EmployeeeWage
             //EmpWage.Attendance();
             // EmpWage.CalculateWage();
             // EmpWage.CalculatingPartTimeWage();
-            EmployeeDetails.CalculatingPartTimeWageWithSwitch();
+           // EmployeeDetails.CalculatingPartTimeWageWithSwitch();
+            EmployeeDetails.CalculateWagesForMonth();
+
 
         }
     }
