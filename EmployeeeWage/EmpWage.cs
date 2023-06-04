@@ -8,26 +8,7 @@ namespace EmployeeeWage
 {
     public class EmpWage
     {
-        public static void Attendance()
-        {
-            int IS_PRESENT = 1;
-            Random random = new Random();
-            int check = random.Next(2);
-
-            if (check == IS_PRESENT)
-            {
-                Console.WriteLine("Employee is Present");
-            }
-            else
-            {
-                Console.WriteLine("Employee is Absent");
-            }
-        }
-             
-        
-            
-
-            public static void CalculateWage()
+       public static void CalculateWage()
             {
 
                 int emp_Hr = 0;
