@@ -13,7 +13,8 @@ namespace EmployeeeWage
             // EmpWage.CalculatingPartTimeWage();
            // EmployeeDetails.CalculatingPartTimeWageWithSwitch();
            // EmployeeDetails.CalculateWagesForMonth();
-            WageTillCondition.CalculateWageTillCondition();
+            //WageTillCondition.CalculateWageTillCondition();
+            Refactor.GetWorkingHour(2);
 
 
         }
