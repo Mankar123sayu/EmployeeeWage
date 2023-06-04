@@ -1,5 +1,6 @@
 ﻿
 using System;
+using static EmployeeeWage.EmpWage;
 
 namespace EmployeeeWage
 {
@@ -7,7 +8,9 @@ namespace EmployeeeWage
     {
         static void Main(string[] args)
         {
-            EmpWage.Attendance();
+            //EmpWage.Attendance();
+            EmpWage.CalculateWage();
+
         }
     }
 }
