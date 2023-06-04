@@ -10,6 +10,7 @@ namespace EmployeeeWage
         {
             //EmpWage.Attendance();
             EmpWage.CalculateWage();
+            EmpWage.CalculatingPartTimeWage();
 
         }
     }
