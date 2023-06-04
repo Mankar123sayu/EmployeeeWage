@@ -1,6 +1,6 @@
 ﻿
 using System;
-using static EmployeeeWage.EmpWage;
+
 
 namespace EmployeeeWage
 {
@@ -9,8 +9,9 @@ namespace EmployeeeWage
         static void Main(string[] args)
         {
             //EmpWage.Attendance();
-            EmpWage.CalculateWage();
-            EmpWage.CalculatingPartTimeWage();
+            // EmpWage.CalculateWage();
+            // EmpWage.CalculatingPartTimeWage();
+            EmployeeDetails.CalculatingPartTimeWageWithSwitch();
 
         }
     }
