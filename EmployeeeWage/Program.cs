@@ -32,6 +32,10 @@ namespace EmployeeeWage
             emp.addCompanyEmpWage("Audi", 20, 5, 160);
             emp.addCompanyEmpWage("Mercedes", 50, 5, 160);
             emp.computeEmpWage();
-        }
+            Console.WriteLine($"Total wage for Audi company: {emp.getTotalWage("Audi")}");
+
+
+
+         }   
     }
 }
